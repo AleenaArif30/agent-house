@@ -1,0 +1,32 @@
+
+
+*{ box-sizing: border-box;}
+
+
+
+.head{ border: 1px solid red;}
+.first{margin-left: 0px; }
+.your{ font-size: 80px;}
+.email{ width: 300px; height: 40px; border-radius: 20px;}
+.main{ width: 100%; background-image: linear-gradient(to right, skyblue , rgb(253, 253, 203));}
+.easy{ text-align: center;}
+.land{ margin-left: auto;}
+.eas{ text-align: center; color: black; font-weight: bolder; font-size: 50px;}
+.now{ width: 130px; height: 40px; border-radius: 20px; background-color: black; color: white;}
+.more{ width: 130px; height: 40px; border-radius: 20px; background-color: white; color: black; margin-left: 30px;}
+.plus{ display: flex; color: black; font-weight: bolder; margin-top: 60px;}
+.twe{margin-left: 0px; font-size: 80px;}
+.ten{margin-left: 60px;}
+.for{ margin-left: 60px;}
+
+
+@media only screen and (max-width: 412px) {
+    .alina{  flex-direction: column; align-items: center; margin-left: 40px;}
+    /* .for{margin-left: 10px;}
+    .ten{ margin-left: 10px;} */
+    .twe{ font-size: 30px ;}
+    .main{ width: 100%;}
+    .your{ font-size: 40px;}
+    .up{width: 5%;}
+    
+}
